@@ -1,0 +1,9 @@
+uuid: 3f18d8ca-6d1a-4597-aeab-1d5ecd0ce91c
+langcode: en
+status: true
+dependencies: {  }
+id: editor_de_proyectos
+label: 'Editor de proyectos'
+weight: 4
+is_admin: false
+permissions: {  }

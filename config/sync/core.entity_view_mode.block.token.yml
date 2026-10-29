@@ -1,0 +1,11 @@
+uuid: dbe15071-ccd3-4210-9800-f0444277dc12
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Token
+description: null
+targetEntityType: block
+cache: true
