@@ -1,0 +1,21 @@
+uuid: 70e7f77c-5433-42e5-bbef-a22417243e72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rango_de_fechas
+    - node.type.evento_de_prueba
+  module:
+    - datetime_range
+id: node.evento_de_prueba.field_rango_de_fechas
+field_name: field_rango_de_fechas
+entity_type: node
+bundle: evento_de_prueba
+label: 'Rango de fechas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

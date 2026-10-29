@@ -1,0 +1,38 @@
+uuid: b49a66e6-a340-46b7-ad9d-37432c0cb3d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_archive
+    - field.field.node.article.field_tipo_de_noticia
+    - node.type.article
+  module:
+    - file
+    - user
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_archive:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_tipo_de_noticia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
