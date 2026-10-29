@@ -1,0 +1,9 @@
+uuid: 3c0e83b8-c917-4664-bdc0-8dbf9fca51a4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Categoría de post'
+vid: post_category
+description: null
+weight: -10
+new_revision: false

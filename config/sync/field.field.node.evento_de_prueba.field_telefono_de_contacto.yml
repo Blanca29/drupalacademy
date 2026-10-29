@@ -1,0 +1,21 @@
+uuid: bfa10d1a-adbc-4d38-97da-205e52d47892
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telefono_de_contacto
+    - node.type.evento_de_prueba
+  module:
+    - telephone
+id: node.evento_de_prueba.field_telefono_de_contacto
+field_name: field_telefono_de_contacto
+entity_type: node
+bundle: evento_de_prueba
+label: 'Teléfono de contacto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone
