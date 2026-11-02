@@ -1,0 +1,40 @@
+uuid: c9728679-e719-49ef-9726-4ad198cde15e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.evento_de_prueba.field_rango_de_fechas
+    - field.field.node.evento_de_prueba.field_telefono_de_contacto
+    - node.type.evento_de_prueba
+  module:
+    - datetime_range
+    - user
+id: node.evento_de_prueba.default
+targetEntityType: node
+bundle: evento_de_prueba
+mode: default
+content:
+  field_rango_de_fechas:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_telefono_de_contacto:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
