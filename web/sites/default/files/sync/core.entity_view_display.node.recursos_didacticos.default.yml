@@ -1,0 +1,58 @@
+uuid: d3d81f3b-3c29-4c24-bc77-2be7f6ed426c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recursos_didacticos.field_archive
+    - field.field.node.recursos_didacticos.field_body
+    - field.field.node.recursos_didacticos.field_date
+    - field.field.node.recursos_didacticos.field_taxonomy
+    - node.type.recursos_didacticos
+  module:
+    - datetime
+    - file
+    - text
+    - user
+id: node.recursos_didacticos.default
+targetEntityType: node
+bundle: recursos_didacticos
+mode: default
+content:
+  field_archive:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_taxonomy:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 3b00307d-dd01-4f83-bd5c-3e0e657820ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.post_blog
+  module:
+    - node
+id: patron_para_post_blog
+label: 'Patrón para post blog'
+type: 'canonical_entities:node'
+pattern: '/articulos/[node:title]'
+selection_criteria:
+  e0172166-f5ad-4dc1-92c0-ad2c71e49916:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      post_blog: post_blog
+selection_logic: and
+weight: -5
+relationships: {  }

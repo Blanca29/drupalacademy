@@ -1,0 +1,12 @@
+uuid: 17e57dc7-69a9-4798-b302-49aec5153762
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'Sitio web creado para el ejercicio práctico'
+  title: '[current-page:title] | [site:name]'
